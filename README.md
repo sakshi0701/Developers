@@ -35,7 +35,8 @@ This is an ecommerce website that helps people to socialize and also gives them 
 - Language Translator <br />
 - Voice Controlled Input + Web speech API <br/>
 - Payment Gateway through payPal <br/>
-- Infinite Scrolling
+- Infinite Scrolling <br/>
+- User can keep track of ordered and cart items through his profile
 
 ---
 <h4 align="center">Shivani Kumari | Sakshi Dwivedi
