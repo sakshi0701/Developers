@@ -1,0 +1,42 @@
+.value{
+    width:35vw;
+    height: 52.2vh;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background-color:#fff;
+    margin-top:8rem;
+    position: relative;
+    right:4.5rem;
+}
+/* .converter h1{
+  margin-top:15rem;
+  position: relative;
+  left:36.5rem;
+  top:2rem;
+} */
+
+.value .input {
+  font-size: 1.2rem;
+  border: 2px solid #333;
+  border-radius: .5em;
+  padding: .5rem;
+  width: 12em;
+  margin-top:16rem;
+  position: relative;
+  left:4.5rem;
+  bottom: 7rem;
+}
+
+select {
+  position: relative;
+  left:5rem;
+  bottom: 7rem;
+}
+
+.equals {
+  margin: 15.3rem 3rem 0 2rem;
+  position: relative;
+  right:4.3rem;
+  top:1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}

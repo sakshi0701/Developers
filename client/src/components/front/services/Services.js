@@ -1,8 +1,8 @@
 import React from 'react'
 import './services.css'
-import two from './Images/2.svg'
-import one from './Images/1.svg'
-import three from './Images/3.svg'
+import two from './Images/5.webp'
+import one from './Images/6.webp'
+import three from './Images/4.png'
 
 const Services = () => {
     return (
@@ -13,8 +13,8 @@ const Services = () => {
                         <img src={one} alt="img"/>
                     </div>
                     <div className="contentBox">
-                        <h3>Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi placeat cum quod necessitatibus alias maxime corrupti accusantium a qui quaerat!</p>
+                        <h3>Returns &amp; Refunds</h3>
+                        <p>Want to return or exchange items?Print return mailing labels or any pictures during delivering.Note that you contact us within 1 week.</p>
                     </div>
                 </div>
 
@@ -23,8 +23,8 @@ const Services = () => {
                     <img src={two} alt="img"/>
                     </div>
                     <div className="contentBox">
-                        <h3>Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi placeat cum quod necessitatibus alias maxime corrupti accusantium a qui quaerat!</p>
+                        <h3>Account Settings</h3>
+                        <p>Change your email address or password in case you forget or for security purpose.Update login information.</p>
                     </div>
                 </div>
 
@@ -33,8 +33,8 @@ const Services = () => {
                     <img src={three} alt="img"/>
                     </div>
                     <div className="contentBox">
-                        <h3>Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi placeat cum quod necessitatibus alias maxime corrupti accusantium a qui quaerat!</p>
+                        <h3>Payment Settings</h3>
+                        <p>Add or edit payment methods.Change expired debit or credit card.There is also an EMI service option.</p>
                     </div>
                 </div>
 

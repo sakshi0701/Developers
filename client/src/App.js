@@ -12,6 +12,7 @@ import CreatorOrTag from './components/CreatorOrTag/CreatorOrTag';
 import Footer from './components/footer/Footer';
 import Sidebar from './components/sidebar/Sidebar';
 import Contact from './components/Contact/Contact';
+import Converter from './components/CurrencyConverter/Converter';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/cart" component={Cart} />
             <Route path="/details" component={Details} />
             <Route path="/contact" component={Contact} />
+            <Route path="/converter" component={Converter}/>
           </Switch>
         </div>
         <Footer />

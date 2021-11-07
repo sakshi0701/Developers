@@ -1,4 +1,5 @@
-  .container-fluid {
+  
+  .container-box {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 15px;
@@ -55,20 +56,20 @@
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: hsl(210, 36%, 96%);
-    padding:40px;
+    padding:20px 88px 10px 20px;
   }
-  .ask .contain p{
+  .ask .container p{
     font-family:Arial, Helvetica, sans-serif;
       font-size: 2.2rem;
       color:hsl(321, 80%, 51%);
-
-
+      padding-top: 0.75rem;
   }
   .ask input{
     position: relative;
     top:0;
     width:70vw;
     padding:5px 0 5px 10px;
+    margin-bottom: 1.2rem;
   }
   .doubt{
     list-style-type: none;

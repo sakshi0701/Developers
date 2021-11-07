@@ -24,7 +24,7 @@ export const SidebarData = [
 
     {
         title: 'Currency Converter',
-        path: '/currency',
+        path: '/converter',
         icon: <BsIcons.BsCurrencyExchange />,
     },
     

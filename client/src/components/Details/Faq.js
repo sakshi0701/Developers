@@ -35,7 +35,7 @@ export default function Faq() {
     },[tasks])
     return (
         <div className="block faqBlock">
-            <div className="container-fluid">
+            <div className="container-box">
                 <div className="titleHolder">
                     <h2>Frequently Asked Questions</h2>
                     <p>Ask your doubts</p>
@@ -61,7 +61,7 @@ export default function Faq() {
                     </Panel>
                 </Collapse>
                 <div className="ask">
-                    <div className="contain">
+                    <div className="container">
                         <p>Ask for any doubt</p>
                         <form  onSubmit={(e)=>{
                             e.preventDefault();
