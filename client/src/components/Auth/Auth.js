@@ -61,24 +61,7 @@ const Auth = () => {
       <Services />
       <LoginDiv id="card">
         <FormLayout style={{ width: "80vh", height: "auto", padding:"10px" }}>
-          {/* <FormTitle>
-            {isSignup ? 'Sign Up' : 'Log In'}
-          </FormTitle> */}
           <form onSubmit={handleSubmit}>
-            {/* <div>
-              {isSignup && (
-                <>
-                  <Input type="text" name="firstName" placeholder="First Name" label="First Name" handleChange={handleChange} autoFocus />
-                  <Input type="text" name="lastName" placeholder="Last Name" label="Last Name" handleChange={handleChange} />
-                </>
-              )}
-              <Input type="email" name="email" placeholder="Email" label="Email Address" handleChange={handleChange} />
-              <Input type="password" name="password" placeholder="Password" label="Password" handleChange={handleChange} />
-              {isSignup && <Input type="password" name="confirmPassword" placeholder="Confirm Password" label="Confirm Password" handleChange={handleChange} />}
-            </div>
-            <ButtonElement type="submit">
-              {isSignup ? 'Sign Up' : 'Log In'}
-            </ButtonElement> */}
             <LoginHeading>Explore now!</LoginHeading>
             <LoginContent>Join us to explore your amazing journey of shopping with platform and keep trending!</LoginContent>
             <GoogleLogin
@@ -92,11 +75,6 @@ const Auth = () => {
               onFailure={googleError}
               cookiePolicy="single_host_origin"
             />
-            <div>
-              {/* <AuthOption onClick={switchMode}>
-                {isSignup ? 'Already have an account? Sign In' : "Don't have an account? SignUp"}
-              </AuthOption> */}
-            </div>
           </form>
         </FormLayout>
         <img src={image} alt="img" className="img-fluid" style={{height:"200px"}} />

@@ -25,7 +25,6 @@ This is an ecommerce website that helps people to socialize and also gives them 
 - Like others' posts  <br />
 - Search for posts  <br />
 - Convert different currencies  <br />
-- Chat and discuss with friends and relatives  <br />
 - Can Email and contact directly through the website
 
 ---
@@ -34,5 +33,5 @@ This is an ecommerce website that helps people to socialize and also gives them 
 - Expense tracker to keep the user up to date.
 
 ---
-<h4 align="center">Shivani Kumari | Sakshi Dwivedi | Pragya Das
+<h4 align="center">Shivani Kumari | Sakshi Dwivedi
 <h5 align="center">✨If you like it, please feel free to give it a star!✨</h5>
