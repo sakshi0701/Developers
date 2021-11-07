@@ -30,7 +30,9 @@ This is an ecommerce website that helps people to socialize and also gives them 
 ---
 
 ### Features being worked on:
-- Expense tracker to keep the user up to date.
+- Expense tracker to keep the user up to date.<br />
+- Chat feature <br/>
+- Language Translator <br />
 
 ---
 <h4 align="center">Shivani Kumari | Sakshi Dwivedi
